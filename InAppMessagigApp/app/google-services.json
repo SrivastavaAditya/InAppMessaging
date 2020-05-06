@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "430997194562",
+    "firebase_url": "https://inappmessaging-5b438.firebaseio.com",
+    "project_id": "inappmessaging-5b438",
+    "storage_bucket": "inappmessaging-5b438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430997194562:android:ff9911fd80b65cec93eadb",
+        "android_client_info": {
+          "package_name": "com.example.sampleinappmessagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430997194562-ob237vtaud6rhbr3usm5qltj9ql5eovm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sampleinappmessagingapp",
+            "certificate_hash": "8b8a186a9d7e78a8579271a98572c5c72fcb421c"
+          }
+        },
+        {
+          "client_id": "430997194562-badmoigkdfse3fqrfvg6bjdtnnu967bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5mm8YUU2D-pGcyuMCShV3nJ2eqqG6oQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430997194562-badmoigkdfse3fqrfvg6bjdtnnu967bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430997194562:android:62b8992897e40b3d93eadb",
+        "android_client_info": {
+          "package_name": "om.example.sampleinappmessagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430997194562-3jhq1f9ktjdr9lbd8gfsbd87hvmdapqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "om.example.sampleinappmessagingapp",
+            "certificate_hash": "8b8a186a9d7e78a8579271a98572c5c72fcb421c"
+          }
+        },
+        {
+          "client_id": "430997194562-badmoigkdfse3fqrfvg6bjdtnnu967bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5mm8YUU2D-pGcyuMCShV3nJ2eqqG6oQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430997194562-badmoigkdfse3fqrfvg6bjdtnnu967bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
