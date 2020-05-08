@@ -28,8 +28,8 @@ public class MyClickListener implements FirebaseInAppMessagingClickListener {
         CampaignMetadata metadata = inAppMessage.getCampaignMetadata();
 
         Log.d("FIAM-Click-URL", url);
-        if(mCallback !=  null){
-            mCallback.onCallback(url);
-        }
+//        if(mCallback !=  null){
+//            mCallback.onCallback(url);
+//        }
     }
 }
