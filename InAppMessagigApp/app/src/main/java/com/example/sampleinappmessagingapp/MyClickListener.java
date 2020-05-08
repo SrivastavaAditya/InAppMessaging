@@ -12,6 +12,13 @@ import com.google.firebase.inappmessaging.model.InAppMessage;
 
 public class MyClickListener implements FirebaseInAppMessagingClickListener {
 
+
+    private Callback mCallback;
+
+    public MyClickListener(Callback callback){
+        this.mCallback = callback;
+    }
+
     @Override
     public void messageClicked(@NonNull InAppMessage inAppMessage, @NonNull Action action) {
         // Determine which URL the user clicked
@@ -21,5 +28,8 @@ public class MyClickListener implements FirebaseInAppMessagingClickListener {
         CampaignMetadata metadata = inAppMessage.getCampaignMetadata();
 
         Log.d("FIAM-Click-URL", url);
+        if(mCallback !=  null){
+            mCallback.onCallback(url);
+        }
     }
 }

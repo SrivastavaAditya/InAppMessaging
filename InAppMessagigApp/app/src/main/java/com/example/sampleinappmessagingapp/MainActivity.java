@@ -13,7 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MyClickListener listener = new MyClickListener();
+        MyClickListener listener = new MyClickListener(new Callback() {
+            @Override
+            public void onCallback(String url) {
+                showToast(url);
+            }
+        });
         FirebaseInAppMessaging.getInstance().addClickListener(listener);
     }
 
