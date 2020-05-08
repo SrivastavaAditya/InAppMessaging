@@ -1,4 +1,4 @@
-package com.example.sampleinappmessagingapp;
+package com.example.sampleinappmessagingapp.firebase;
 
 import android.app.Activity;
 import android.app.Application;

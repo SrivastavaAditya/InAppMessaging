@@ -1,9 +1,11 @@
-package com.example.sampleinappmessagingapp;
+package com.example.sampleinappmessagingapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.sampleinappmessagingapp.R;
 
 public class SecondActivity extends AppCompatActivity {
 

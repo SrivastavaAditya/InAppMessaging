@@ -1,10 +1,11 @@
-package com.example.sampleinappmessagingapp;
+package com.example.sampleinappmessagingapp.firebase;
 
 import android.util.Log;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.example.sampleinappmessagingapp.Callback;
 import com.google.firebase.inappmessaging.FirebaseInAppMessagingClickListener;
 import com.google.firebase.inappmessaging.model.Action;
 import com.google.firebase.inappmessaging.model.CampaignMetadata;

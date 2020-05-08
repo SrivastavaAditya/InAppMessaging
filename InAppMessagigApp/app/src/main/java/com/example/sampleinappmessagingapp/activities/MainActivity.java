@@ -1,4 +1,4 @@
-package com.example.sampleinappmessagingapp;
+package com.example.sampleinappmessagingapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.sampleinappmessagingapp.R;
 import com.google.firebase.inappmessaging.FirebaseInAppMessaging;
 
 public class MainActivity extends AppCompatActivity {
